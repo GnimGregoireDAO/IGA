@@ -1,0 +1,22 @@
+<header [class.scrolled]="isScrolled" class="main-header">
+  <div class="container">
+    <div class="logo-section">
+      <img src="assets/logo.jpg" alt="Logo Groupe IGA" class="logo" />
+      <div class="brand-text">
+        <div class="brand-name">IGA</div>
+        <div class="brand-tagline">L'eau en confiance</div>
+      </div>
+    </div>
+
+    <!-- Navigation simple -->
+    <nav>
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Accueil</a>
+      <a href="#expertises" (click)="scrollToSection('expertises', $event)">Nos expertises</a>
+      <a href="#realisations" (click)="scrollToSection('realisations', $event)">Réalisations</a>
+      <a href="#a-propos" (click)="scrollToSection('a-propos', $event)">À propos</a>
+      <a href="#contact" (click)="scrollToSection('contact', $event)">Contact</a>
+      <a routerLink="/admin/login" routerLinkActive="active">Administration</a>
+    </nav>
+  </div>
+</header>
+

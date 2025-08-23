@@ -1,0 +1,10 @@
+// Styles pour le composant racine de l'application
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
+// Styles globaux pour le routeur
+router-outlet {
+  display: block;
+}

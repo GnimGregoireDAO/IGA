@@ -1,0 +1,123 @@
+/* Header fixe avec hauteur précise pour éliminer l'espace blanc */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px; /* Hauteur exacte synchronisée avec le padding-top du home-container */
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #e2e8f0;
+  z-index: 10; /* Z-index bas pour ne pas cacher la scrollbar */
+  transition: all 0.3s ease;
+  margin: 0; /* Reset explicite des marges */
+  padding: 0; /* Reset explicite du padding */
+}
+
+.main-header.scrolled {
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  height: 100%; /* Prend toute la hauteur du header */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto; /* Centrage horizontal uniquement */
+  padding: 0 2rem; /* Padding horizontal uniquement */
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0; /* Reset des marges */
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  margin: 0; /* Reset des marges */
+}
+
+.brand-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e4fd6;
+  line-height: 1;
+  margin: 0; /* Reset des marges */
+}
+
+.brand-tagline {
+  font-size: 0.75rem;
+  color: #64748b;
+  line-height: 1;
+  margin: 0; /* Reset des marges */
+}
+
+/* Navigation simple sans espacement excessif */
+nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 0; /* Reset des marges */
+  padding: 0; /* Reset du padding */
+}
+
+nav a {
+  text-decoration: none;
+  color: #334155;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+  margin: 0; /* Reset des marges */
+  padding: 0.5rem 0; /* Padding vertical minimal */
+}
+
+nav a:hover,
+nav a.active {
+  color: #1e4fd6;
+}
+
+/* Responsive avec ajustement de hauteur */
+@media (max-width: 768px) {
+  .main-header {
+    height: 60px; /* Hauteur réduite sur tablette */
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  nav {
+    gap: 1rem;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-header {
+    height: 50px; /* Hauteur encore plus réduite sur mobile */
+  }
+
+  nav {
+    gap: 0.8rem;
+  }
+
+  nav a {
+    font-size: 0.8rem;
+  }
+
+  .logo {
+    height: 35px;
+  }
+}

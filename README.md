@@ -14,7 +14,7 @@ Ce projet est un site web vitrine développé pour une entreprise spécialisée 
 
 ## Technologies utilisées
 
-- Frontend : Next.js / React
+- Frontend : Angular
 - Backend : SpringBoot
 - Authentification : JWT / Auth0 / Firebase Auth
 - Base de données : MongoDB / PostgreSQL
