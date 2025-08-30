@@ -1,8 +1,8 @@
-# 🌊 Projet IGA - Site Vitrine Complet
+# 🌊 Projet IGA - Site Vitrine Complet 
 
-## 🎯 Résumé du Projet Réalisé
+## 🎯 Résumé du Projet
 
-J'ai créé un site vitrine complet et innovant pour l'entreprise IGA, spécialisée en conseil hydrogéologique, avec des animations spectaculaires et une architecture moderne.
+Je créé un site vitrine complet et innovant pour l'entreprise IGA, spécialisée en conseil hydrogéologique, avec des animations spectaculaires et une architecture moderne.
 
 ## ✨ Fonctionnalités Développées
 
@@ -170,8 +170,3 @@ Chaque animation et effet visuel rappelle l'eau et l'hydrogéologie :
 - **Vagues et flux** dans les transitions
 - **Particules aquatiques** en arrière-plan
 
-## 🏆 Résultat Final
-
-Un site vitrine **professionnel, moderne et engageant** qui reflète parfaitement l'expertise d'IGA en hydrogéologie, avec une interface d'administration complète pour la gestion autonome des contenus.
-
-Le tout respecte les demandes spécifiques avec des animations grandioses qui racontent l'histoire de l'eau et de l'expertise qui grandit ! 🌱💧
